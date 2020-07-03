@@ -1,0 +1,40 @@
+extends base.pug
+block scripts
+     script(src='/static/index.js')
+block style
+     style
+      include ../static/style.css
+block content
+  
+  section#id1
+       div#divid1 Welcome To The HOBBS's Dance Academy
+       div#divid2 Eat Sleep Dance Reapet
+  section#id4
+       h2 Our Misson  
+       div.card
+         h3 The Dance Perfection
+         div.card-box
+            div.card-img
+               img(src="5.png", alt="")
+            div.card-content
+               p This is very best Dance
+       div.card
+          h3 Dance The Way You Like
+          div.card-box
+            div.card-img
+               img(src="2.png", alt="")
+            div.card-content
+               p This is very best Dance
+       div.card
+          h3 The Dance Teaching
+          div.card-box
+            div.card-img
+               img(src="4.png", alt="")
+            div.card-content
+               p This is very best Dance
+  section#id2
+       h2 Our Sponsors
+       div#divSponsor
+          img(src="14.png", alt="sponsors image" ,class ="spimage")
+          img(src="15.png", alt="sponsors image" ,class ="spimage")
+          img(src="16.jpg", alt="sponsors image" ,class ="spimage")

@@ -1,0 +1,54 @@
+doctype html
+html
+  head 
+    title DanceWebsite
+    style
+      include ../static/style.css
+  body
+    nav#navId.navClass
+       ul
+         div#logo
+            img(src="logo.jpg", alt="")
+            | HDA
+
+         li #[a(href="/") Home]
+         li #[a(href="/") About]
+         li #[a(href="/") Help]
+         li #[a(href="/") Services]
+    section#id1
+       div#divid1 Welcome To The HOBBS's Dance Academy
+       div#divid2 Eat Sleep Dance Reapet
+    section#id4
+       h2 Our Misson  
+       div.card
+         h3 The Dance Perfection
+         div.card-box
+            div.card-img
+               img(src="5.png", alt="")
+            div.card-content
+               p This is very best Dance
+       div.card
+          h3 Dance The Way You Like
+          div.card-box
+            div.card-img
+               img(src="2.png", alt="")
+            div.card-content
+               p This is very best Dance
+       div.card
+          h3 The Dance Teaching
+          div.card-box
+            div.card-img
+               img(src="4.png", alt="")
+            div.card-content
+               p This is very best Dance
+    section#id2
+       h2 Our Sponsors
+       div#divSponsor
+          img(src="14.png", alt="sponsors image" ,class ="spimage")
+          img(src="15.png", alt="sponsors image" ,class ="spimage")
+          img(src="16.jpg", alt="sponsors image" ,class ="spimage")
+    footer#id3
+       div#div12
+          |copyright © Hobbs Dance Academy 2020 | Contact-Us :- 01393-256842
+    script
+      include ../static/index.js
